@@ -86,7 +86,7 @@ const HeroSection = () => {
         oldprice="Rp 14,000,000"
       />
       <Card
-        img="/Images.png"
+        img="/images.png"
         title="Syltherine"
         description="Stylish cafe chair"
         price="Rp 5,000,000"

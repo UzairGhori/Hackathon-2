@@ -1,9 +1,48 @@
 import React from "react";
 import Image from "next/image";
+import { IoIosArrowForward } from "react-icons/io";
 
 const BlogPage = () => {
   return (
+    <div>
+        <div className="relative w-full h-[340px] flex items-center justify-center bg-gradient-to-r from-gray-700 via-gray-600 to-gray-700 text-white">
+  {/* Background Image */}
+  <Image
+    src="/image/shopHero.png"
+    alt="Shop Background"
+    layout="fill"
+    objectFit="cover"
+    priority
+    className="absolute z-0"
+  />
+
+  {/* Content Overlay */}
+  <div className="absolute z-10 text-center px-4 sm:px-6">
+    {/* Logo */}
+    <Image
+      src="/p1.png"
+      alt="Logo"
+      width={80}
+      height={80}
+      className="mx-auto mb-4 sm:mb-6"
+    />
+
+    {/* Title */}
+    <h3 className="font-bold text-2xl sm:text-4xl md:text-5xl text-black">
+      Blog
+    </h3>
+
+    {/* Breadcrumb */}
+    <h5 className="flex items-center justify-center mt-2 text-sm sm:text-lg">
+      <span className="font-medium text-black">Home</span>
+      <IoIosArrowForward className="mx-1 sm:mx-2 text-black" />
+      <span className="text-black font-light">Blog</span>
+    </h5>
+  </div>
+</div>
+
     
+
     <div className="bg-white min-h-screen p-4 md:p-8">
       <div className="container mx-auto">
         {/* Main Layout */}
@@ -13,8 +52,8 @@ const BlogPage = () => {
             {/* Post 1 */}
             <div className="bg-white shadow-lg rounded-lg overflow-hidden">
               <Image
-                src="/images/post1.png"
-                alt="Post 1"
+                src="/Image/Rectangle 68.png"
+                alt=""
                 width={1200}
                 height={600}
                 className="w-full h-auto object-cover"
@@ -44,7 +83,7 @@ const BlogPage = () => {
             {/* Post 2 */}
             <div className="bg-white shadow-lg rounded-lg overflow-hidden">
               <Image
-                src="/images/post2.png"
+                src="/Image/Rectangle 68 (1).png"
                 alt="Post 2"
                 width={1200}
                 height={600}
@@ -74,7 +113,7 @@ const BlogPage = () => {
             {/* Post 3 */}
             <div className="bg-white shadow-lg rounded-lg overflow-hidden">
               <Image
-                src="/images/post3.png"
+                src="/Image/Rectangle 68 (2).png"
                 alt="Post 3"
                 width={1200}
                 height={600}
@@ -121,7 +160,11 @@ const BlogPage = () => {
           <div className="lg:col-span-4 space-y-12">
             {/* Categories */}
             <div className="bg-white shadow-lg rounded-lg p-6">
-              <h3 className="text-xl font-semibold text-gray-800 mb-4">
+                <div>
+                <input type="text" placeholder="" className="w-[311px] h-[58px] border-[1px] border-[#9F9F9F]" />
+                <Image src="/icons/Vector (1).png" alt="logo" width={200} height={200} className=" w-[19px] h-[19px] -mt-[40px] ml-[280px] " />
+                </div>
+              <h3 className="text-xl font-semibold mt-5 text-gray-800 mb-4">
                 Categories
               </h3>
               <ul className="space-y-2 text-gray-600">
@@ -141,8 +184,8 @@ const BlogPage = () => {
               <ul className="space-y-4">
                 <li className="flex items-center space-x-4">
                   <Image
-                    src="/images/recent1.png"
-                    alt="Recent Post 1"
+                    src="/Image/Rectangle 69.png"
+                    alt=""
                     width={60}
                     height={60}
                     className="rounded-lg"
@@ -156,7 +199,7 @@ const BlogPage = () => {
                 </li>
                 <li className="flex items-center space-x-4">
                   <Image
-                    src="/images/recent2.png"
+                    src="/Image/Rectangle 69 (1).png"
                     alt="Recent Post 2"
                     width={60}
                     height={60}
@@ -171,7 +214,7 @@ const BlogPage = () => {
                 </li>
                 <li className="flex items-center space-x-4">
                   <Image
-                    src="/images/recent3.png"
+                    src="/Image/Rectangle 69 (2).png"
                     alt="Recent Post 3"
                     width={60}
                     height={60}
@@ -184,11 +227,42 @@ const BlogPage = () => {
                     <p className="text-xs text-gray-500">03 Aug 2022</p>
                   </div>
                 </li>
+                <li className="flex items-center space-x-4">
+                  <Image
+                    src="/Image/Rectangle 69 (3).png"
+                    alt=""
+                    width={60}
+                    height={60}
+                    className="rounded-lg"
+                  />
+                  <div>
+                    <h4 className="text-sm font-medium text-gray-800">
+                      Going all-in with millennial design
+                    </h4>
+                    <p className="text-xs text-gray-500">03 Aug 2022</p>
+                  </div>
+                </li>
+                <li className="flex items-center space-x-4">
+                  <Image
+                    src="/Image/Rectangle 69 (4).png"
+                    alt=""
+                    width={60}
+                    height={60}
+                    className="rounded-lg"
+                  />
+                  <div>
+                    <h4 className="text-sm font-medium text-gray-800">
+                      Going all-in with millennial design
+                    </h4>
+                    <p className="text-xs text-gray-500">03 Aug 2022</p>
+                  </div>
+                </li>
               </ul>
             </div>
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };

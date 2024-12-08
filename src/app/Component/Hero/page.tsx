@@ -9,7 +9,7 @@ const HeroSection = () => {
   {/* Hero Section */}
   <div className="relative">
     <Image
-      src="/image/MaskGroup.png"
+      src="/MaskGroup.png"
       alt="pic"
       width={1000}
       height={1000}
@@ -28,21 +28,21 @@ const HeroSection = () => {
 
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-12">
       <Image
-        src="/image/Mask Group.png"
+        src="/Mask Group.png"
         alt="Dining"
         width={500}
         height={500}
         className="w-full h-auto"
       />
       <Image
-        src="/image/Mask Group2.png"
+        src="/Mask Group2.png"
         alt="Living"
         width={500}
         height={500}
         className="w-full h-auto"
       />
       <Image
-        src="/image/Mask Group3.png"
+        src="/Mask Group3.png"
         alt="Bedroom"
         width={500}
         height={500}
@@ -65,28 +65,28 @@ const HeroSection = () => {
 
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-10">
       <Card
-        img="/image/image 1.png"
+        img="/image 1.png"
         title="Syltherine"
         description="Stylish cafe chair"
         price="Rp 2,500,000"
         oldprice="Rp 3,500,000"
       />
       <Card
-        img="/image/image 2.png"
+        img="/image 2.png"
         title="Leviosa"
         description="Stylish cafe chair"
         price="Rp 2,500,000"
         oldprice=""
       />
       <Card
-        img="/image/image 3.png"
+        img="/image 3.png"
         title="Lolito"
         description="Stylish cafe chair"
         price="Rp 7,000,000"
         oldprice="Rp 14,000,000"
       />
       <Card
-        img="/image/images.png"
+        img="/images.png"
         title="Syltherine"
         description="Stylish cafe chair"
         price="Rp 5,000,000"
@@ -95,26 +95,26 @@ const HeroSection = () => {
 
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-10">
       <Card
-        img="/image/image 9.png"
+        img="/image 9.png"
         title="Grifo"
         description="Night lamp"
         price="Rp 1,500,000"
       />
       <Card
-        img="/image/image 6.png"
+        img="/image 6.png"
         title="Muggo"
         description="Small mug"
         price="Rp 150,000"
       />
       <Card
-        img="/image/image 7.png"
+        img="/image 7.png"
         title="Pingky"
         description="Cute bed set"
         price="Rp 7,000,000"
         oldprice="Rp 14,000,000"
       />
       <Card
-        img="/image/images 8.png"
+        img="/images 8.png"
         title="Potty"
         description="Minimalist flower pot"
         price="Rp 5,000,000"
@@ -145,21 +145,21 @@ const HeroSection = () => {
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-6 lg:mt-0">
         <Image
-          src="/image/Rectangle 24.png"
+          src="/Rectangle 24.png"
           alt="Inspiration 1"
           width={500}
           height={500}
           className="w-full h-auto"
         />
         <Image
-          src="/image/Rectangle 25.png"
+          src="/Rectangle 25.png"
           alt="Inspiration 2"
           width={500}
           height={500}
           className="w-full h-auto"
         />
       <Image
-  src="/image/Rectangle 26.png"
+  src="/Rectangle 26.png"
   alt="Inspiration 3"
   width={500}
   height={500}

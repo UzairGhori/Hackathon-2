@@ -51,7 +51,7 @@ const Header = () => {
         className="w-[23.33px] h-[28px]"
       />
       <Image
-        src="./account-alert (4).png"
+        src="/account-alert (4).png"
         alt="icon"
         width={28}
         height={28}

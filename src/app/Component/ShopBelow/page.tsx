@@ -9,20 +9,20 @@ export default function BlowHero() {
         <div className="flex items-center gap-4">
           <div className="flex items-center gap-2">
             <Image
-              src="/image/filter.png"
+              src="/filter.png"
               width={20}
               height={20}
               alt="Filter Icon"
               className="w-[28px] h-[28px]"
             />
             <Image 
-            src="/icons/view-list (1).png" 
+            src="/view-list (1).png" 
             alt="Icon" 
             width={100} 
             height={100} 
             className="w-6 h-6" />
             <Image 
-            src="/icons/view-list (2).png"  
+            src="/view-list (2).png"  
             alt="Icon" 
             width={100} 
             height={100} 

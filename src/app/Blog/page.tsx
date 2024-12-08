@@ -8,7 +8,7 @@ const BlogPage = () => {
         <div className="relative w-full h-[340px] flex items-center justify-center bg-gradient-to-r from-gray-700 via-gray-600 to-gray-700 text-white">
   {/* Background Image */}
   <Image
-    src="/image/shopHero.png"
+    src="/shopHero.png"
     alt="Shop Background"
     layout="fill"
     objectFit="cover"
@@ -52,7 +52,7 @@ const BlogPage = () => {
             {/* Post 1 */}
             <div className="bg-white shadow-lg rounded-lg overflow-hidden">
               <Image
-                src="/Image/Rectangle 68.png"
+                src="/Rectangle 68.png"
                 alt=""
                 width={1200}
                 height={600}
@@ -83,7 +83,7 @@ const BlogPage = () => {
             {/* Post 2 */}
             <div className="bg-white shadow-lg rounded-lg overflow-hidden">
               <Image
-                src="/Image/Rectangle 68 (1).png"
+                src="/Rectangle 68 (1).png"
                 alt="Post 2"
                 width={1200}
                 height={600}
@@ -113,7 +113,7 @@ const BlogPage = () => {
             {/* Post 3 */}
             <div className="bg-white shadow-lg rounded-lg overflow-hidden">
               <Image
-                src="/Image/Rectangle 68 (2).png"
+                src="/Rectangle 68 (2).png"
                 alt="Post 3"
                 width={1200}
                 height={600}
@@ -162,7 +162,7 @@ const BlogPage = () => {
             <div className="bg-white shadow-lg rounded-lg p-6">
                 <div>
                 <input type="text" placeholder="" className="w-[311px] h-[58px] border-[1px] border-[#9F9F9F]" />
-                <Image src="/icons/Vector (1).png" alt="logo" width={200} height={200} className=" w-[19px] h-[19px] -mt-[40px] ml-[280px] " />
+                <Image src="/Vector (1).png" alt="logo" width={200} height={200} className=" w-[19px] h-[19px] -mt-[40px] ml-[280px] " />
                 </div>
               <h3 className="text-xl font-semibold mt-5 text-gray-800 mb-4">
                 Categories

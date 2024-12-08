@@ -10,7 +10,7 @@ const Contact = () => {
      
       <div className="relative w-full h-[340px] flex items-center justify-center bg-gradient-to-r from-gray-700 via-gray-600 to-gray-700 text-white">
         <Image
-          src="/image/shopHero.png"
+          src="/shopHero.png"
           alt="Shop Background"
           layout="fill"
           objectFit="cover"
@@ -136,7 +136,7 @@ const Contact = () => {
     {/* Image 1 */}
     <div className="w-full sm:w-[48%] lg:w-[24%]">
       <Image 
-        src="/icons/Frame19(1).png" 
+        src="/Frame19(1).png" 
         alt="icon 1" 
         width={337} 
         height={200} 
@@ -147,7 +147,7 @@ const Contact = () => {
     {/* Image 2 */}
     <div className="w-full sm:w-[48%] lg:w-[24%]">
       <Image 
-        src="/icons/Frame19 (2).png" 
+        src="/Frame19 (2).png" 
         alt="icon 2" 
         width={328} 
         height={200} 
@@ -158,7 +158,7 @@ const Contact = () => {
     {/* Image 3 */}
     <div className="w-full sm:w-[48%] lg:w-[24%]">
       <Image 
-        src="/icons/Frame19(3).png" 
+        src="/Frame19(3).png" 
         alt="icon 3" 
         width={364} 
         height={300} 
@@ -169,7 +169,7 @@ const Contact = () => {
     {/* Image 4 */}
     <div className="w-full sm:w-[48%] lg:w-[24%]">
       <Image 
-        src="/icons/Frame19(4).png" 
+        src="/Frame19(4).png" 
         alt="icon 4" 
         width={359} 
         height={500} 

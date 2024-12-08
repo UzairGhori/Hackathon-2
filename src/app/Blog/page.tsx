@@ -8,7 +8,7 @@ const BlogPage = () => {
         <div className="relative w-full h-[340px] flex items-center justify-center bg-gradient-to-r from-gray-700 via-gray-600 to-gray-700 text-white">
   {/* Background Image */}
   <Image
-    src="/shopHero.png"
+    src="/shophero.png"
     alt="Shop Background"
     layout="fill"
     objectFit="cover"

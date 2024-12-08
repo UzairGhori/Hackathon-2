@@ -133,7 +133,7 @@ export default function ShopHero() {
       {/* Hero Section */}
       <div className="relative w-full h-[340px] flex items-center justify-center bg-gradient-to-r from-gray-800 via-gray-600 to-gray-800 text-white">
         <Image
-          src="/shopHero.png"
+          src="/shophero.png"
           alt="Shop Background"
           layout="fill"
           objectFit="cover"

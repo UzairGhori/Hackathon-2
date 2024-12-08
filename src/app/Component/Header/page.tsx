@@ -22,36 +22,36 @@ const Header = () => {
     {/* Navigation Links */}
     <ul className="hidden md:flex items-center gap-8 text-[#000000] font-Poppins text-[14px] md:text-[16px] font-medium">
       <li className="hover:text-[#f4a261] cursor-pointer"><Link href="/">Home</Link></li>
-      <li className="hover:text-[#f4a261] cursor-pointer"><Link  href="/Shop">Shop</Link> </li>
-      <li className="hover:text-[#f4a261] cursor-pointer"><Link href="/Blog">Blog</Link></li>
+      <li className="hover:text-[#f4a261] cursor-pointer"><Link rel="stylesheet" href="/Shop">Shop</Link> </li>
+      <li className="hover:text-[#f4a261] cursor-pointer"><Link href="/Blog" >Blog</Link></li>
       <li className="hover:text-[#f4a261] cursor-pointer"><Link href="/Contact">Contact</Link></li>
     </ul>
 
     {/* Icons Section */}
     <div className="flex gap-4 items-center mt-2 md:mt-0">
       <Image
-        src="/icons/account-alert (1).png"
+        src="/account-alert (1).png"
         alt="icon"
         width={28}
         height={28}
         className="w-[28px] h-[28px]"
       />
       <Image
-        src="/icons/account-alert (2).png"
+        src="/account-alert (2).png"
         alt="icon"
         width={28}
         height={28}
         className="w-[28px] h-[28px]"
       />
       <Image
-        src="/icons/account-alert (3).png"
+        src="/account-alert (3).png"
         alt="icon"
         width={23.33}
         height={28}
         className="w-[23.33px] h-[28px]"
       />
       <Image
-        src="/icons/account-alert (4).png"
+        src="./account-alert (4).png"
         alt="icon"
         width={28}
         height={28}

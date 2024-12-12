@@ -18,11 +18,11 @@ const Contact = () => {
         />
         <div className="absolute z-10 text-center px-4">
           <Image src="/p1.png" alt="logo" width={100} height={100} className="mx-auto mb-4" />
-          <h3 className="font-bold text-4xl text-white">Contact</h3>
+          <h3 className="font-bold text-4xl text-black">Contact</h3>
           <h5 className="flex items-center justify-center mt-2 text-lg">
-            <span className="font-medium text-white">Home</span>
+            <span className="font-medium text-black">Home</span>
             <IoIosArrowForward className="mx-2 text-white" />
-            <span className="text-white font-light">Contact</span>
+            <span className="text-black font-light">Contact</span>
           </h5>
         </div>
       </div>
@@ -131,56 +131,22 @@ const Contact = () => {
               </button>
             </form>
           </div>
-          <div className="w-full h-auto pt-[50px] pb-[50px] bg-[#FAF3EA]">
-  <div className="flex flex-wrap justify-between items-center gap-6 mx-auto max-w-[1200px] px-4">
-    {/* Image 1 */}
-    <div className="w-full sm:w-[48%] lg:w-[24%]">
-      <Image 
-        src="/Frame19(1).png" 
-        alt="icon 1" 
-        width={337} 
-        height={200} 
-        className="w-full h-auto object-contain" 
-      />
-    </div>
-
-    {/* Image 2 */}
-    <div className="w-full sm:w-[48%] lg:w-[24%]">
-      <Image 
-        src="/Frame19 (2).png" 
-        alt="icon 2" 
-        width={328} 
-        height={200} 
-        className="w-full h-auto object-contain" 
-      />
-    </div>
-
-    {/* Image 3 */}
-    <div className="w-full sm:w-[48%] lg:w-[24%]">
-      <Image 
-        src="/Frame19(3).png" 
-        alt="icon 3" 
-        width={364} 
-        height={300} 
-        className="w-full h-auto object-contain" 
-      />
-    </div>
-
-    {/* Image 4 */}
-    <div className="w-full sm:w-[48%] lg:w-[24%]">
-      <Image 
-        src="/Frame19(4).png" 
-        alt="icon 4" 
-        width={359} 
-        height={500} 
-        className="w-full h-auto object-contain" 
+         
+        </div>
+      </div>
+       {/* Bottom Image Section */}
+<div className="w-full mt-8 -mb-[65px] ">
+    <div className="relative w-full max-w-full mx-auto">
+      <Image
+        src="/Frame161(1).png"
+        alt="pic"
+        width={1440}
+        height={570}
+        className="w-full h-auto object-cover"
+        priority
       />
     </div>
   </div>
-</div>
-
-        </div>
-      </div>
     </div>
   );
 };

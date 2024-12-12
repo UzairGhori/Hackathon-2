@@ -50,13 +50,13 @@ const Header = () => {
         height={28}
         className="w-[23.33px] h-[28px]"
       />
-      <Image
+      <Link href='/Cart'><Image
         src="/account-alert (4).png"
         alt="icon"
         width={28}
         height={28}
         className="w-[28px] h-[28px]"
-      />
+      /></Link>
     </div>
 
     {/* Mobile Menu */}

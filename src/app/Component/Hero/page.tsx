@@ -72,7 +72,7 @@ const HeroSection = () => {
         oldprice="Rp 3,500,000"
       />
       <Card
-        img="/image 2.png"
+        img="/Featured Products.png"
         title="Leviosa"
         description="Stylish cafe chair"
         price="Rp 2,500,000"
@@ -169,6 +169,90 @@ const HeroSection = () => {
       </div>
     </div>
   </div>
+
+  <div className="w-full py-10">
+      <div className="container mx-auto text-center">
+        <h1 className="text-white text-xl md:text-3xl font-bold mb-8">
+          Share your setup with{" "}
+          <span className="text-[#D4AF37]">#FuniroFurniture</span>
+        </h1>
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 px-4 md:px-0">
+          {/* Images */}
+          <div className="relative aspect-square">
+            <Image
+              src="/Rectangle 36.png" // Replace with actual image path
+              alt="Furniture 1"
+              layout="fill"
+              objectFit="cover"
+              className="rounded-lg w-[100px] h-[382px]"
+            />
+          </div>
+          <div className="relative aspect-square">
+            <Image
+              src="/Rectangle 38.png" // Replace with actual image path
+              alt="Furniture 2"
+              layout="fill"
+              objectFit="cover"
+              className="rounded-lg"
+            />
+          </div>
+          <div className="relative aspect-square">
+            <Image
+              src="/Rectangle 40.png" // Replace with actual image path
+              alt="Furniture 3"
+              layout="fill"
+              objectFit="cover"
+              className="rounded-lg"
+            />
+          </div>
+          <div className="relative aspect-square">
+            <Image
+              src="/Rectangle 43.png" // Replace with actual image path
+              alt="Furniture 4"
+              layout="fill"
+              objectFit="cover"
+              className="rounded-lg"
+            />
+          </div>
+          <div className="relative aspect-square">
+            <Image
+              src="/Rectangle 37.png" // Replace with actual image path
+              alt="Furniture 5"
+              layout="fill"
+              objectFit="cover"
+              className="rounded-lg"
+            />
+          </div>
+          <div className="relative aspect-square">
+            <Image
+              src="/Rectangle 39.png" // Replace with actual image path
+              alt="Furniture 6"
+              layout="fill"
+              objectFit="cover"
+              className="rounded-lg"
+            />
+          </div>
+          <div className="relative aspect-square">
+            <Image
+              src="/Rectangle 41.png" // Replace with actual image path
+              alt="Furniture 7"
+              layout="fill"
+              objectFit="cover"
+              className="rounded-lg"
+            />
+          </div>
+          <div className="relative aspect-square">
+            <Image
+              src="/Rectangle 44.png" // Replace with actual image path
+              alt="Furniture 8"
+              layout="fill"
+              objectFit="cover"
+              className="rounded-lg"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
 </div>
 
   )

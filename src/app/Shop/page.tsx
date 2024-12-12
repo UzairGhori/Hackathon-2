@@ -21,11 +21,11 @@ export default function ShopHero() {
       description: "Stylish cafe chair",
     },
     {
-      name: "Jane Smith",
+      name: "Repira",
       price: "Rp 2.500.000",
       age: 25,
       image: "/images.png",
-      description: "A creative designer who loves creating stunning visuals.",
+      description: "A New Item description.",
     },
     {
       name: "New Item",
@@ -35,11 +35,11 @@ export default function ShopHero() {
       description: "A new item description.",
     },
     {
-      name: "Sam Wilson",
+      name: "",
       price: "Rp 2.500.000",
       age: 28,
-      image: "/image 2.png",
-      description: "A software engineer specializing in backend systems.",
+      image: "/Featured Products.png",
+      description: "Stylish cafe chair",
     },
     {
         name: "Syltherine",
@@ -49,11 +49,11 @@ export default function ShopHero() {
         description: "Stylish cafe chair",
       },
       {
-        name: "Jane Smith",
+        name: "Repira",
         price: "Rp 2.500.000",
         age: 25,
         image: "/images.png",
-        description: "A creative designer who loves creating stunning visuals.",
+        description: "A New Item description.",
       },
       {
         name: "New Item",
@@ -63,11 +63,11 @@ export default function ShopHero() {
         description: "A new item description.",
       },
       {
-        name: "Sam Wilson",
+        name: "Leviosa",
         price: "Rp 2.500.000",
         age: 28,
         image: "/image 2.png",
-        description: "A software engineer specializing in backend systems.",
+        description: "Stylish cafe chair",
       },
       {
         name: "Syltherine",
@@ -77,11 +77,11 @@ export default function ShopHero() {
         description: "Stylish cafe chair",
       },
       {
-        name: "Jane Smith",
+        name: "Repira",
         price: "Rp 2.500.000",
         age: 25,
         image: "/images.png",
-        description: "A creative designer who loves creating stunning visuals.",
+        description: "A New Item description.",
       },
       {
         name: "New Item",
@@ -91,11 +91,11 @@ export default function ShopHero() {
         description: "A new item description.",
       },
       {
-        name: "Sam Wilson",
+        name: "Leviosa",
         price: "Rp 2.500.000",
         age: 28,
         image: "/image 2.png",
-        description: "A software engineer specializing in backend systems.",
+        description: "Stylish cafe chair",
       },
       {
         name: "Syltherine",
@@ -105,11 +105,11 @@ export default function ShopHero() {
         description: "Stylish cafe chair",
       },
       {
-        name: "Jane Smith",
+        name: "Repira",
         price: "Rp 2.500.000",
         age: 25,
         image: "/images.png",
-        description: "A creative designer who loves creating stunning visuals.",
+        description: "A New Item description.",
       },
       {
         name: "New Item",
@@ -119,11 +119,11 @@ export default function ShopHero() {
         description: "A new item description.",
       },
       {
-        name: "Sam Wilson",
+        name: "Leviosa",
         price: "Rp 2.500.000",
         age: 28,
         image: "/image 2.png",
-        description: "A software engineer specializing in backend systems.",
+        description: "Stylish cafe chair",
       },
     // Add more items as needed
   ];
@@ -153,29 +153,69 @@ export default function ShopHero() {
       <BlowHero />
 
       {/* Cards Section */}
-      <div className="px-4  py-8 mx-auto max-w-screen-xl grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-12">
-        {data.map((card, index) => (
-          <div
-            className="bg-white shadow-lg rounded-lg overflow-hidden transform transition-transform hover:scale-105"
-            key={index}
-          >
-            <Image
-              src={card.image}
-              alt={card.name}
-              width={300}
-              height={300}
-              className="w-full h-[250px] object-cover"
-            />
-            <div className="p-4">
-              <h5 className="text-lg font-semibold">{card.name}</h5>
-              <p className="text-gray-500 mt-2">{card.description}</p>
-              <h5 className="text-xl font-bold text-gray-800 mt-4">
-                {card.price}
-              </h5>
-            </div>
-          </div>
-        ))}
+<div className="w-full max-w-[1920px] px-2 sm:px-4 md:px-6 lg:px-8 py-6 mx-auto">
+  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3 sm:gap-4 md:gap-5 lg:gap-6">
+    {data.map((card, index) => (
+      <div
+        key={index}
+        className="bg-white rounded-lg shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden group"
+      >
+        <div className="relative aspect-square">
+          <Image
+            src={card.image}
+            alt={card.name}
+            fill
+            className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-300"
+          
+          />
+        </div>
+        <div className="p-3 sm:p-4">
+          <h5 className="text-base sm:text-lg font-semibold text-gray-900 truncate">
+            {card.name}
+          </h5>
+          <p className="mt-2 text-sm sm:text-base text-gray-600 line-clamp-2">
+            {card.description}
+          </p>
+          <h5 className="mt-3 text-lg sm:text-xl font-bold text-gray-900">
+            {card.price}
+          </h5>
+        </div>
       </div>
-    </>
+    ))}
+  </div>
+
+  <div className="flex justify-center items-center mt-20 space-x-4">
+              <button className="px-8 py-4 bg-yellow-600 text-white rounded-md hover:bg-yellow-700">
+                1
+              </button>
+              <button className="px-8 py-4 bg-gray-200 text-gray-800 rounded-md hover:bg-gray-300">
+                2
+              </button>
+              <button className="px-8 py-4 bg-gray-200 text-gray-800 rounded-md hover:bg-gray-300">
+                3
+              </button>
+              <button className="px-8 py-4 bg-gray-200 text-gray-800 rounded-md hover:bg-gray-300">
+                Next
+              </button>
+            </div>
+
+  
+ 
+</div>
+
+{/* Bottom Image Section */}
+<div className="w-full mt-8 -mb-20 ">
+    <div className="relative w-full max-w-full mx-auto">
+      <Image
+        src="/Frame161(1).png"
+        alt="pic"
+        width={1440}
+        height={570}
+        className="w-full h-auto object-cover"
+        priority
+      />
+    </div>
+  </div>
+</>
   );
 }

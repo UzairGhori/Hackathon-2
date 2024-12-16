@@ -21,7 +21,7 @@ const Contact = () => {
           <h3 className="font-bold text-4xl text-black">Contact</h3>
           <h5 className="flex items-center justify-center mt-2 text-lg">
             <span className="font-medium text-black">Home</span>
-            <IoIosArrowForward className="mx-2 text-white" />
+            <IoIosArrowForward className="mx-2 text-black" />
             <span className="text-black font-light">Contact</span>
           </h5>
         </div>

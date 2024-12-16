@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link';
 const Header = () => {
   return (
-<div className="w-full bg-[#FFFFFF] py-2">
+<div className="w-full bg-[#FFFFFF] py-8">
   <div className="flex flex-wrap items-center justify-between max-w-[1280px] mx-auto px-4">
     {/* Logo Section */}
     <div className="flex items-center gap-2">
@@ -29,6 +29,7 @@ const Header = () => {
 
     {/* Icons Section */}
     <div className="flex gap-4 items-center mt-2 md:mt-0">
+      <Link href='/Checkout'>
       <Image
         src="/account-alert (1).png"
         alt="icon"
@@ -36,6 +37,8 @@ const Header = () => {
         height={28}
         className="w-[28px] h-[28px]"
       />
+      </Link>
+      <Link href="">
       <Image
         src="/account-alert (2).png"
         alt="icon"
@@ -43,6 +46,8 @@ const Header = () => {
         height={28}
         className="w-[28px] h-[28px]"
       />
+      </Link>
+      <Link href="/ProductComparison">
       <Image
         src="/account-alert (3).png"
         alt="icon"
@@ -50,6 +55,7 @@ const Header = () => {
         height={28}
         className="w-[23.33px] h-[28px]"
       />
+      </Link>
       <Link href='/Cart'><Image
         src="/account-alert (4).png"
         alt="icon"

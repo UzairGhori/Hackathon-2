@@ -64,13 +64,15 @@ const HeroSection = () => {
     </h1>
 
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-10">
+      <Link href="/Singleproduct">
       <Card
-        img="/image 1.png"
+        img="/Asgaard sofa 3.png"
         title="Syltherine"
         description="Stylish cafe chair"
         price="Rp 2,500,000"
         oldprice="Rp 3,500,000"
       />
+      </Link>
       <Card
         img="/Featured Products.png"
         title="Leviosa"
